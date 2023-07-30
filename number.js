@@ -8,6 +8,6 @@ function skillsMember() {
         scope: {
             member: 'm'
         }
-        };
-    }
+        
+    };
 }
