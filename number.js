@@ -1,4 +1,5 @@
 function skillsMember() {
+    
     return {
         restrict: 'E',
         templateUrl: 'modules/skills/views/member.html',
@@ -6,7 +7,7 @@ function skillsMember() {
         controllerAs: 'vm',
         bindToController: true,
         scope: {
-            member: 'm'
+            member: 'mm'
         }
         
     };
